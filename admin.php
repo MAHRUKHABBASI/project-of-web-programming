@@ -33,6 +33,7 @@
             $_SESSION["key"] ='admin';
             $_SESSION["email"] = $email;
             header("location:dashboard.php?q=0");
+		
         }
         else
         {
